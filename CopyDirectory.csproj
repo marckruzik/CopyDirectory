@@ -1,7 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Marc Kruzik</Authors>
+    <Description>Copy a complete directory recursively in the most simple way. This is a nuget version of the official Microsoft code example to copy directories.</Description>
+    <RepositoryUrl>https://github.com/marckruzik/CopyDirectory</RepositoryUrl>
+    <PackageTags>copydirectory;copyfolder;folder;io</PackageTags>
+    <PackageIcon>CopyDirectory.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon\CopyDirectory.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

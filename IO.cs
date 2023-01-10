@@ -5,7 +5,7 @@ namespace CopyDirectory
 {
     public class IO
     {
-        static void CopyDirectory(string sourceDir, string destinationDir, bool recursive=true)
+        public static void CopyDirectory(string sourceDir, string destinationDir, bool recursive=true)
         {
             // Get information about the source directory
             var dir = new DirectoryInfo(sourceDir);
