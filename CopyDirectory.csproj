@@ -6,12 +6,22 @@
     <Authors>Marc Kruzik</Authors>
     <Description>Copy a complete directory recursively in the most simple way. This is a nuget version of the official Microsoft code example to copy directories.</Description>
     <RepositoryUrl>https://github.com/marckruzik/CopyDirectory</RepositoryUrl>
-    <PackageTags>copydirectory;copyfolder;folder;io</PackageTags>
+    <PackageTags>copydirectory;copyfolder;copy directory;copy folder;folder;io</PackageTags>
     <PackageIcon>CopyDirectory.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <version>1.0.3</version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="icon\CopyDirectory.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
