@@ -54,7 +54,7 @@ Nothing more, nothing less.
 # FAQ
 ## Why this nuget?
 
-This is no built-in function in C# to copy paste a directory. And there is no nuget to easily copy paste a directory.  
+There is no built-in function in C# to copy paste a directory. And there is no nuget to easily copy paste a directory.  
 The usual way to go is to copy paste the code above, and put it somewhere in your code.  
 So I made this nuget, so we can have an easy way to copy paste a directory.
 
@@ -62,4 +62,4 @@ So I made this nuget, so we can have an easy way to copy paste a directory.
 Feel free to do so.
 
 ## You did not see the XXX nuget which can copy paste folders!
-Contact me or make a pull request, so I can write here a list of nugets which can copy paste folders (please describe their strong points).
+Contact me or make a pull request on the Readme file, so I can write here a list of nugets which can copy paste folders (please describe their strong points).
